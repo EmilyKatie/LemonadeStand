@@ -40,6 +40,8 @@
     <Compile Include="UI.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="Inventory.cs" />
+    <Compile Include="Weather.cs" />
+    <Compile Include="Wallet.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

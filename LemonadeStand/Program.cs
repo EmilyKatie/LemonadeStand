@@ -6,7 +6,8 @@ namespace LemonadeStand
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome to the best Lemonade Stand Ever!");
+
         }
     }
 }
