@@ -40,10 +40,10 @@ namespace LemonadeStand
             if (money >= CostOfSugar)
             {
                 money -= CostOfSugar;
-                inventory.Sugar += Sugar; 
+                inventory.Sugar += Sugar;
+
 
             }
-
         }
         public void BuyIce()
         {
@@ -59,8 +59,9 @@ namespace LemonadeStand
 
                 money -= CostofIce;
                 inventory.Ice += Ice;
-        
+
             }
+        }
     }
-    
 }
+    
