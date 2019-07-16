@@ -8,7 +8,7 @@ namespace LemonadeStand
 
         double money;
         Inventory inventory = new Inventory();
-
+        Customer customer = new Customer();
 
 
 

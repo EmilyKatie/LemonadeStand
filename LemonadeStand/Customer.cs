@@ -21,7 +21,7 @@ namespace LemonadeStand
             Console.WriteLine("Are you feeling thirsty today? If yes, check weather and money");
             string Thirsty = Console.ReadLine();
 
-            switch(Thirsty)
+            switch (Thirsty)
             {
                 case "yes":
                     Console.WriteLine("Awesome! Enjoy your ice cold lemonade");
@@ -37,13 +37,13 @@ namespace LemonadeStand
         public void AssignMoneyFactor()
         {
             Random random = new Random();
-            money = random.Next(15, 80);
+            money = random.Next(10, 99);
 
         }
         public void AssignTemperatureFactor()
         {
             Random random = new Random();
-            temperature = random.Next(50, 105);
+            temperature = random.Next(45, 105);
 
         }
 
@@ -56,34 +56,28 @@ namespace LemonadeStand
 
         public void Flavortown()
         {
+            public int Lemon { get; set; }
 
-            Random random = new Random();
-            lemon = random.Next(0, 8);
-            for (int i = 0; i < IngredientStrength)
-
-
-
-
+            public int Sugar { get; set; }
+            public int Ice { get; set; }
         }
-        private int lemon;
-
-        public int Lemon
-        {
-
-            set
-            {
-                if ((int > 0) && (int < 9))
-                {
-                    int = 4;
-                }
-            }
-        }
-
-
+        
     }
-}
+}        //Random random = new Random();
+            
+            //for (int i = 0; i < IngredientStrength.customer; i++)
+            //{
+            //    Console.WriteLine();
+            
+        
 
-//Inventory inventory = new Inventory();                                       //List<string> IngredientStrength = new List<string>();
+       
+
+
+    
+
+
+//Inventory inventory = new Inventory();                     //List<string> IngredientStrength = new List<string>();
 //Console.WriteLine(customer.Lemon);
 //customer.taste <= 0;
 //Console.WriteLine(Customer.Lemon);
